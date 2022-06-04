@@ -1,7 +1,7 @@
 ﻿using System.Text.Json.Serialization;
-using Prospect.Server.Api.Models.Multiplayer.Data;
+using LaCunaServer.Server.Api.Models.Multiplayer.Data;
 
-namespace Prospect.Server.Api.Models.Multiplayer;
+namespace LaCunaServer.Server.Api.Models.Multiplayer;
 
 public class FListQosServersForTitleResponse
 {

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.SignalR;
 
-namespace Prospect.Server.Api.Hubs;
+namespace LaCunaServer.Server.Api.Hubs;
 
 public class CycleHub : Hub
 {

@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Http.Extensions;
 using Newtonsoft.Json;
 
-namespace Prospect.Server.Api.Middleware;
+namespace LaCunaServer.Server.Api.Middleware;
 
 public class RequestLoggerMiddleware
 {

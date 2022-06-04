@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace Prospect.Server.Api.Models.Client.Data;
+namespace LaCunaServer.Server.Api.Models.Client.Data;
 
 public class FVirtualCurrencyRechargeTime
 {

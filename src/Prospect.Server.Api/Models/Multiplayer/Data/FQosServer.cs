@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace Prospect.Server.Api.Models.Multiplayer.Data;
+namespace LaCunaServer.Server.Api.Models.Multiplayer.Data;
 
 public class FQosServer
 {

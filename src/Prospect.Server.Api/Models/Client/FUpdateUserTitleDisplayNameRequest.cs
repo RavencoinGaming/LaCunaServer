@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace Prospect.Server.Api.Models.Client;
+namespace LaCunaServer.Server.Api.Models.Client;
 
 public class FUpdateUserTitleDisplayNameRequest
 {

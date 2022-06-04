@@ -1,4 +1,4 @@
-﻿namespace Prospect.Server.Api.Models.Client;
+﻿namespace LaCunaServer.Server.Api.Models.Client;
 
 public class FUpdateUserTitleDisplayNameResult
 {
