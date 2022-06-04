@@ -4,12 +4,12 @@ on:
   push:
     paths:
       - .github/workflows/build.yml
-      - ./src/Prospect.Agent/**
-      - ./src/Prospect.Launcher/**
+      - ./src/LaCunaServer.Agent/**
+      - ./src/LaCunaServer.Launcher/**
 
 env:
-  PROJ_AGENT: ./src/Prospect.Agent/Prospect.Agent.vcxproj
-  PROJ_LAUNCHER: ./src/Prospect.Launcher/Prospect.Launcher.csproj
+  PROJ_AGENT: ./src/LaCunaServer.Agent/LaCunaServer.Agent.vcxproj
+  PROJ_LAUNCHER: ./src/LaCunaServer.Launcher/LaCunaServer.Launcher.csproj
 
 jobs:
   build:
@@ -28,22 +28,22 @@ jobs:
     - name: Restore NuGet
       run: dotnet restore ${{env.PROJ_LAUNCHER}}
 
-    - name: Install Prospect.Agent dependencies
+    - name: Install LaCunaServer.Agent dependencies
       run: |
         vcpkg integrate install
         vcpkg install minhook:x64-windows-static
 
-    - name: Build Prospect.Agent
+    - name: Build LaCunaServer.Agent
       run: msbuild /m /p:Configuration=Release /p:Platform=x64 ${{env.PROJ_AGENT}}
 
-    - name: Build Prospect.Launcher
-      run: dotnet publish -o ./Prospect-Launcher -r win-x64 --no-self-contained -c Release -v minimal ${{env.PROJ_LAUNCHER}}
+    - name: Build LaCunaServer.Launcher
+      run: dotnet publish -o ./LaCunaServer-Launcher -r win-x64 --no-self-contained -c Release -v minimal ${{env.PROJ_LAUNCHER}}
 
-    - name: Compress Prospect.Launcher
-      run: 7z a launcher.zip ./Prospect-Launcher
+    - name: Compress LaCunaServer.Launcher
+      run: 7z a launcher.zip ./LaCunaServer-Launcher
 
     - uses: actions/upload-artifact@v2
       with:
-        name: Prospect.Launcher
+        name: LaCunaServer.Launcher
         path: ./launcher.zip
         retention-days: 14
