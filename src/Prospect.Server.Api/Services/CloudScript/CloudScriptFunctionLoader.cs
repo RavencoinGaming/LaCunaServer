@@ -2,7 +2,7 @@
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace Prospect.Server.Api.Services.CloudScript;
+namespace LaCunaServer.Server.Api.Services.CloudScript;
 
 public record CloudScriptFunctionData(Type Clazz, Type RequestType, bool ReturnsObject, Func<object, object, Task> Delegate);
 

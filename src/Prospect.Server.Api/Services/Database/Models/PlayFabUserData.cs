@@ -1,7 +1,7 @@
 ﻿using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
-namespace Prospect.Server.Api.Services.Database.Models;
+namespace LaCunaServer.Server.Api.Services.Database.Models;
 
 public class PlayFabUserData
 {

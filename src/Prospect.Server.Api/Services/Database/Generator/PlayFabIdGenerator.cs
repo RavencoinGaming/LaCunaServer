@@ -1,7 +1,7 @@
 ﻿using System.Security.Cryptography;
 using MongoDB.Bson.Serialization;
 
-namespace Prospect.Server.Api.Services.Database.Generator;
+namespace LaCunaServer.Server.Api.Services.Database.Generator;
 
 public class PlayFabIdGenerator : IIdGenerator
 {

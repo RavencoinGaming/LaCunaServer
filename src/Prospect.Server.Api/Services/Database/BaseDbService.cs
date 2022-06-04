@@ -1,8 +1,8 @@
 ﻿using Microsoft.Extensions.Options;
 using MongoDB.Driver;
-using Prospect.Server.Api.Config;
+using LaCunaServer.Server.Api.Config;
 
-namespace Prospect.Server.Api.Services.Database;
+namespace LaCunaServer.Server.Api.Services.Database;
 
 public abstract class BaseDbService<T>
 {

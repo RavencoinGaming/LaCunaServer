@@ -1,4 +1,4 @@
-﻿namespace Prospect.Server.Api.Services.Qos;
+﻿namespace LaCunaServer.Server.Api.Services.Qos;
 
 /// <summary>
 ///     Implementation of a QoS beacon.

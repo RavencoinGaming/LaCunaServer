@@ -3,10 +3,10 @@ using System.Text.Encodings.Web;
 using System.Text.Json;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.Extensions.Options;
-using Prospect.Server.Api.Models.Client;
-using Prospect.Server.Api.Services.Auth.Extensions;
+using LaCunaServer.Server.Api.Models.Client;
+using LaCunaServer.Server.Api.Services.Auth.Extensions;
 
-namespace Prospect.Server.Api.Services.Auth.Entity;
+namespace LaCunaServer.Server.Api.Services.Auth.Entity;
 
 public class EntityAuthenticationHandler : AuthenticationHandler<EntityAuthenticationOptions>
 {

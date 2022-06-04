@@ -2,7 +2,7 @@
 using System.Net;
 using System.Net.Sockets;
 
-namespace Prospect.Server.Api.Services.Qos;
+namespace LaCunaServer.Server.Api.Services.Qos;
 
 public class QosServer : IAsyncDisposable
 {

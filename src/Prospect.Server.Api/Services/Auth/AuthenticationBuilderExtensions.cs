@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Authentication;
-using Prospect.Server.Api.Services.Auth.Entity;
-using Prospect.Server.Api.Services.Auth.User;
+using LaCunaServer.Server.Api.Services.Auth.Entity;
+using LaCunaServer.Server.Api.Services.Auth.User;
 
-namespace Prospect.Server.Api.Services.Auth;
+namespace LaCunaServer.Server.Api.Services.Auth;
 
 public static class AuthenticationBuilderExtensions
 {

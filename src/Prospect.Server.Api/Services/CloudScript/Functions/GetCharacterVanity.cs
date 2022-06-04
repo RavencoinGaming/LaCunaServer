@@ -1,7 +1,7 @@
-﻿using Prospect.Server.Api.Services.Auth.Extensions;
-using Prospect.Server.Api.Services.CloudScript.Models;
+﻿using LaCunaServer.Server.Api.Services.Auth.Extensions;
+using LaCunaServer.Server.Api.Services.CloudScript.Models;
 
-namespace Prospect.Server.Api.Services.CloudScript.Functions;
+namespace LaCunaServer.Server.Api.Services.CloudScript.Functions;
 
 [CloudScriptFunction("GetCharacterVanity")]
 public class GetCharacterVanity : ICloudScriptFunction<FYGetCharacterVanityRequest, object?>
@@ -59,7 +59,7 @@ public class GetCharacterVanity : ICloudScriptFunction<FYGetCharacterVanityReque
                     materialIndex = 0,
                 },
                 body_type = 1,
-                archetype_id = "TheProspector",
+                archetype_id = "TheLaCunaServeror",
                 slot_index = 0
             }
         });

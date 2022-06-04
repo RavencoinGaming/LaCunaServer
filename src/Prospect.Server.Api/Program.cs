@@ -1,7 +1,7 @@
 using Serilog;
 using Serilog.Events;
 
-namespace Prospect.Server.Api;
+namespace LaCunaServer.Server.Api;
 
 public static class Program
 {

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authentication;
 
-namespace Prospect.Server.Api.Services.Auth.Entity;
+namespace LaCunaServer.Server.Api.Services.Auth.Entity;
 
 public class EntityAuthenticationOptions : AuthenticationSchemeOptions
 {

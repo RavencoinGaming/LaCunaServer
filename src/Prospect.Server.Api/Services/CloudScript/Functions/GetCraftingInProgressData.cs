@@ -1,8 +1,8 @@
-﻿using Prospect.Server.Api.Services.Auth.Extensions;
-using Prospect.Server.Api.Services.CloudScript.Models;
-using Prospect.Server.Api.Services.CloudScript.Models.Data;
+﻿using LaCunaServer.Server.Api.Services.Auth.Extensions;
+using LaCunaServer.Server.Api.Services.CloudScript.Models;
+using LaCunaServer.Server.Api.Services.CloudScript.Models.Data;
 
-namespace Prospect.Server.Api.Services.CloudScript.Functions;
+namespace LaCunaServer.Server.Api.Services.CloudScript.Functions;
 
 [CloudScriptFunction("GetCraftingInProgressData")]
 public class GetCraftingInProgressData : ICloudScriptFunction<FYGetCraftingInProgressDataRequest, FYGetCraftingInProgressDataResult>

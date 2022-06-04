@@ -1,7 +1,7 @@
 ﻿using MongoDB.Bson.Serialization.Attributes;
-using Prospect.Server.Api.Services.Database.Generator;
+using LaCunaServer.Server.Api.Services.Database.Generator;
 
-namespace Prospect.Server.Api.Services.Database.Models;
+namespace LaCunaServer.Server.Api.Services.Database.Models;
 
 /// <summary>
 ///     master_player_account

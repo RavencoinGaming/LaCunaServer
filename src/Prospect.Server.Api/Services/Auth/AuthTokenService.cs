@@ -3,14 +3,14 @@ using System.Security.Claims;
 using System.Text;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
-using Prospect.Server.Api.Services.Database.Models;
+using LaCunaServer.Server.Api.Services.Database.Models;
 
-namespace Prospect.Server.Api.Services.Auth;
+namespace LaCunaServer.Server.Api.Services.Auth;
 
 public class AuthTokenService
 {
-    private const string DefaultIssuer = "ProspectApi";
-    private const string DefaultAudience = "Prospect";
+    private const string DefaultIssuer = "LaCunaServerApi";
+    private const string DefaultAudience = "LaCunaServer";
         
     private readonly SymmetricSecurityKey _securityKey;
     private readonly JwtSecurityTokenHandler _tokenHandler;

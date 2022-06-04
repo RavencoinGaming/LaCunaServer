@@ -1,15 +1,15 @@
-using Prospect.Server.Api.Config;
-using Prospect.Server.Api.Converters;
-using Prospect.Server.Api.Hubs;
-using Prospect.Server.Api.Middleware;
-using Prospect.Server.Api.Services.Auth;
-using Prospect.Server.Api.Services.CloudScript;
-using Prospect.Server.Api.Services.Database;
-using Prospect.Server.Api.Services.Qos;
-using Prospect.Server.Api.Services.UserData;
+using LaCunaServer.Server.Api.Config;
+using LaCunaServer.Server.Api.Converters;
+using LaCunaServer.Server.Api.Hubs;
+using LaCunaServer.Server.Api.Middleware;
+using LaCunaServer.Server.Api.Services.Auth;
+using LaCunaServer.Server.Api.Services.CloudScript;
+using LaCunaServer.Server.Api.Services.Database;
+using LaCunaServer.Server.Api.Services.Qos;
+using LaCunaServer.Server.Api.Services.UserData;
 using Serilog;
 
-namespace Prospect.Server.Api;
+namespace LaCunaServer.Server.Api;
 
 public class Startup
 {

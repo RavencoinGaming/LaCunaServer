@@ -1,4 +1,4 @@
-﻿namespace Prospect.Server.Api.Services.UserData;
+﻿namespace LaCunaServer.Server.Api.Services.UserData;
 
 public class TitleDataService
 {

@@ -3,10 +3,10 @@ using System.Text.Encodings.Web;
 using System.Text.Json;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.Extensions.Options;
-using Prospect.Server.Api.Models.Client;
-using Prospect.Server.Api.Services.Auth.Extensions;
+using LaCunaServer.Server.Api.Models.Client;
+using LaCunaServer.Server.Api.Services.Auth.Extensions;
 
-namespace Prospect.Server.Api.Services.Auth.User;
+namespace LaCunaServer.Server.Api.Services.Auth.User;
 
 public class UserAuthenticationHandler : AuthenticationHandler<UserAuthenticationOptions>
 {

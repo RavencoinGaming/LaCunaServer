@@ -1,7 +1,7 @@
-﻿using Prospect.Server.Api.Models.Client.Data;
-using Prospect.Server.Api.Services.Database;
+﻿using LaCunaServer.Server.Api.Models.Client.Data;
+using LaCunaServer.Server.Api.Services.Database;
 
-namespace Prospect.Server.Api.Services.UserData;
+namespace LaCunaServer.Server.Api.Services.UserData;
 
 public class UserDataService
 {

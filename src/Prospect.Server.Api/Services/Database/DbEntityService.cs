@@ -1,9 +1,9 @@
 ﻿using Microsoft.Extensions.Options;
 using MongoDB.Driver;
-using Prospect.Server.Api.Config;
-using Prospect.Server.Api.Services.Database.Models;
+using LaCunaServer.Server.Api.Config;
+using LaCunaServer.Server.Api.Services.Database.Models;
 
-namespace Prospect.Server.Api.Services.Database;
+namespace LaCunaServer.Server.Api.Services.Database;
 
 public class DbEntityService : BaseDbService<PlayFabEntity>
 {

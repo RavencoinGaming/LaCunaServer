@@ -1,6 +1,6 @@
 ﻿{
   "profiles": {
-    "Prospect.Server.Api": {
+    "LaCunaServer.Server.Api": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": false,

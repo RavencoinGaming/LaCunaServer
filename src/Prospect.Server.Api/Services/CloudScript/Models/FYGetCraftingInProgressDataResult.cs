@@ -1,7 +1,7 @@
 ﻿using System.Text.Json.Serialization;
-using Prospect.Server.Api.Services.CloudScript.Models.Data;
+using LaCunaServer.Server.Api.Services.CloudScript.Models.Data;
 
-namespace Prospect.Server.Api.Services.CloudScript.Models;
+namespace LaCunaServer.Server.Api.Services.CloudScript.Models;
 
 public class FYGetCraftingInProgressDataResult
 {

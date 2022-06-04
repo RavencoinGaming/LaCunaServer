@@ -1,6 +1,6 @@
-﻿using Prospect.Server.Api.Services.CloudScript.Models;
+﻿using LaCunaServer.Server.Api.Services.CloudScript.Models;
 
-namespace Prospect.Server.Api.Services.CloudScript.Functions;
+namespace LaCunaServer.Server.Api.Services.CloudScript.Functions;
 
 [CloudScriptFunction("RequestMaintenanceModeState")]
 public class RequestMaintenanceModeState : ICloudScriptFunction<FYMaintenanceModeState, FYRequestMaintenanceModeStateResult>

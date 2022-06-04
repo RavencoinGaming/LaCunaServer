@@ -1,4 +1,4 @@
-﻿namespace Prospect.Server.Api.Services.Auth;
+﻿namespace LaCunaServer.Server.Api.Services.Auth;
 
 public class AuthTokenSettings
 {

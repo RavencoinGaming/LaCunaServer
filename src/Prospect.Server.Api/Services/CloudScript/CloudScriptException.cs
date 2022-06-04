@@ -1,6 +1,6 @@
 ﻿using System.Runtime.Serialization;
 
-namespace Prospect.Server.Api.Services.CloudScript;
+namespace LaCunaServer.Server.Api.Services.CloudScript;
 
 public class CloudScriptException : Exception
 {

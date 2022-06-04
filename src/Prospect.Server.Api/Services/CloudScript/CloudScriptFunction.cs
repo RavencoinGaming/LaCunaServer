@@ -1,4 +1,4 @@
-﻿namespace Prospect.Server.Api.Services.CloudScript;
+﻿namespace LaCunaServer.Server.Api.Services.CloudScript;
 
 [AttributeUsage(AttributeTargets.Class)]
 public class CloudScriptFunction : Attribute

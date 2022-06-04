@@ -1,7 +1,7 @@
 ﻿using System.Security.Claims;
-using Prospect.Server.Api.Exceptions;
+using LaCunaServer.Server.Api.Exceptions;
 
-namespace Prospect.Server.Api.Services.Auth.Extensions;
+namespace LaCunaServer.Server.Api.Services.Auth.Extensions;
 
 public static class ClaimsPrincipalExtensions
 {
@@ -25,7 +25,7 @@ public static class ClaimsPrincipalExtensions
         var claim = principal.FindFirst(claimType);
         if (claim == null)
         {
-            throw new ProspectException($"Failed to find claim {claimType}");
+            throw new LaCunaServerException($"Failed to find claim {claimType}");
         }
 
         return claim.Value;

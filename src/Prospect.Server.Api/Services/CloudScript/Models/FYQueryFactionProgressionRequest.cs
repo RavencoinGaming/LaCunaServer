@@ -1,4 +1,4 @@
-﻿namespace Prospect.Server.Api.Services.CloudScript.Models;
+﻿namespace LaCunaServer.Server.Api.Services.CloudScript.Models;
 
 public class FYQueryFactionProgressionRequest
 {
