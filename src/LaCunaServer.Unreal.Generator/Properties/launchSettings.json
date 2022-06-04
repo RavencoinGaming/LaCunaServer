@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Roslyn": {
+      "commandName": "DebugRoslynComponent",
+      "targetProject": "..\\LaCunaServer.Unreal\\LaCunaServer.Unreal.csproj"
+    }
+  }
+}
