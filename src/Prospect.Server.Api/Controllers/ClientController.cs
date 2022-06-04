@@ -2,18 +2,18 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
-using Prospect.Server.Api.Config;
-using Prospect.Server.Api.Models.Client;
-using Prospect.Server.Api.Models.Client.Data;
-using Prospect.Server.Api.Services.Auth;
-using Prospect.Server.Api.Services.Auth.Extensions;
-using Prospect.Server.Api.Services.Auth.User;
-using Prospect.Server.Api.Services.Database;
-using Prospect.Server.Api.Services.Database.Models;
-using Prospect.Server.Api.Services.UserData;
-using Prospect.Steam;
+using LaCunaServer.Server.Api.Config;
+using LaCunaServer.Server.Api.Models.Client;
+using LaCunaServer.Server.Api.Models.Client.Data;
+using LaCunaServer.Server.Api.Services.Auth;
+using LaCunaServer.Server.Api.Services.Auth.Extensions;
+using LaCunaServer.Server.Api.Services.Auth.User;
+using LaCunaServer.Server.Api.Services.Database;
+using LaCunaServer.Server.Api.Services.Database.Models;
+using LaCunaServer.Server.Api.Services.UserData;
+using LaCunaServer.Steam;
 
-namespace Prospect.Server.Api.Controllers;
+namespace LaCunaServer.Server.Api.Controllers;
 
 [ApiController]
 [Route("Client")]

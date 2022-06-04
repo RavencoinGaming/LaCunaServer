@@ -1,11 +1,11 @@
 ﻿using System.Net.Mime;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Prospect.Server.Api.Models.Client;
-using Prospect.Server.Api.Services.Auth.Entity;
-using Prospect.Server.Api.Services.CloudScript;
+using LaCunaServer.Server.Api.Models.Client;
+using LaCunaServer.Server.Api.Services.Auth.Entity;
+using LaCunaServer.Server.Api.Services.CloudScript;
 
-namespace Prospect.Server.Api.Controllers;
+namespace LaCunaServer.Server.Api.Controllers;
 
 [Route("CloudScript")]
 [ApiController]

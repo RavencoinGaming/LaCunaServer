@@ -1,22 +1,22 @@
 ﻿using System.Runtime.Serialization;
 
-namespace Prospect.Server.Api.Exceptions;
+namespace LaCunaServer.Server.Api.Exceptions;
 
-public class ProspectException : Exception
+public class LaCunaServerException : Exception
 {
-    public ProspectException()
+    public LaCunaServerException()
     {
     }
 
-    protected ProspectException(SerializationInfo info, StreamingContext context) : base(info, context)
+    protected LaCunaServerException(SerializationInfo info, StreamingContext context) : base(info, context)
     {
     }
 
-    public ProspectException(string message) : base(message)
+    public LaCunaServerException(string message) : base(message)
     {
     }
 
-    public ProspectException(string message, Exception innerException) : base(message, innerException)
+    public LaCunaServerException(string message, Exception innerException) : base(message, innerException)
     {
     }
 }

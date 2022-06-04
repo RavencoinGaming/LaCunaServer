@@ -1,13 +1,13 @@
 ﻿using System.Net.Mime;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Prospect.Server.Api.Models.Client;
-using Prospect.Server.Api.Models.Multiplayer;
-using Prospect.Server.Api.Models.Multiplayer.Data;
-using Prospect.Server.Api.Services.Auth.Entity;
-using Prospect.Server.Api.Services.Auth.User;
+using LaCunaServer.Server.Api.Models.Client;
+using LaCunaServer.Server.Api.Models.Multiplayer;
+using LaCunaServer.Server.Api.Models.Multiplayer.Data;
+using LaCunaServer.Server.Api.Services.Auth.Entity;
+using LaCunaServer.Server.Api.Services.Auth.User;
 
-namespace Prospect.Server.Api.Controllers;
+namespace LaCunaServer.Server.Api.Controllers;
 
 [Route("MultiplayerServer")]
 [ApiController]

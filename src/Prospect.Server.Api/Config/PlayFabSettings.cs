@@ -1,4 +1,4 @@
-﻿namespace Prospect.Server.Api.Config;
+﻿namespace LaCunaServer.Server.Api.Config;
 
 public class PlayFabSettings
 {

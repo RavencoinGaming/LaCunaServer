@@ -2,7 +2,7 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace Prospect.Server.Api.Converters;
+namespace LaCunaServer.Server.Api.Converters;
 
 // By default System.Text.Json outputs and we want:
 //  Output: 2021-11-04T04:58:20.4232184Z
