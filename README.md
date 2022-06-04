@@ -1,8 +1,8 @@
 # Prospect
 
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/AeonLucid/Prospect/Build?style=for-the-badge)](https://github.com/AeonLucid/Prospect/actions)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/RavencoinGaming/LaCunaServer/Build?style=for-the-badge)](https://github.com/RavencoinGaming/LaCunaServer/actions)
 
-Also known as "The Cycle: Frontier".
+Also known as "SOS: The Ultimate Escape".
 
 This repository is just something I work on when bored, do not expect much at this stage.
 
@@ -18,17 +18,11 @@ This repository is just something I work on when bored, do not expect much at th
 
 ### 1. Download the game
 
-If you are enrolled into the closed beta, you can download a fresh copy with [SteamRE/DepotDownloader](https://github.com/SteamRE/DepotDownloader).
-
-```
-.\DepotDownloader.exe -app 1600360 -depot 1600361 -manifest 720055916602660127 -username <username>
-```
-
-This gives you the [exact copy](https://steamdb.info/depot/1600361/history/?changeid=M:720055916602660127) that is used for this repository.
+This gives you the [exact copy](https://mega.nz/#!3ElBQAzB!p1QYcWlIqKBOYEWvBbQwNCFcMzomLIV9FtSe3WoKGHM) that is used for this repository.
 
 ### 2. Download the latest launcher
 
-Navigate to the [latest successful](https://github.com/AeonLucid/Prospect/actions) build. Extract the launcher files to a directory.
+Navigate to the [latest successful](https://github.com/RavencoinGaming/LaCunaServer/actions) build. Extract the launcher files to a directory.
 
 Run the launcher with the first argument being the path of step 1.
 ```
@@ -38,7 +32,7 @@ Run the launcher with the first argument being the path of step 1.
 ### 3. Clone the repository
 
 ```
-git clone https://github.com/AeonLucid/Prospect.git
+git clone https://github.com/RavenCoinGaming/LaCunaServer.git
 ```
 
 ### 4. Open the solution
