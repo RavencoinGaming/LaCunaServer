@@ -1,4 +1,4 @@
-# Prospect
+# LaCunaServer
 
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/RavencoinGaming/LaCunaServer/Build?style=for-the-badge)](https://github.com/RavencoinGaming/LaCunaServer/actions)
 
